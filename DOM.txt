@@ -1,0 +1,21 @@
+Navigating Between Nodes
+You can use the following node properties to navigate between nodes with JavaScript:
+
+parentNode
+childNodes[nodenumber]
+firstChild
+lastChild
+nextSibling
+previousSibling
+
+
+
+#####################
+
+const title = document.querySelector('h2')
+const title = document.querySelectorAll('p')
+
+title.parentElement
+title.children
+title.nextElementSibling
+title.previousElementSibling
